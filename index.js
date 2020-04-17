@@ -5,7 +5,7 @@ const Datastore = require('nedb');
 const database = new Datastore('baza_podataka.db');
 database.loadDatabase();
 
-app.listen(3000);
+app.listen(process.env.PORT);
 app.use(express.static('public'));
 app.use(express.json());
 
