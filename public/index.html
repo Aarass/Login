@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/style.css">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <nav id="identification">
+      <button type="button" id="login">Login</button>
+      <button type="button" id="register">Register</button>
+    </nav>
+    <form id="form1" class="identificationForms">
+      <h1>Login</h1>
+      <label for="username">Username</label>
+      <input type="text" name="username">
+      <label for="password">Password</label>
+      <input type="password" name="password">
+      <p id="goToRegister">Don't have account?</p>
+      <button type="button" name="button" onclick="login()">Login</button>
+      <span id="loginFormMsg"></span>
+    </form>
+    <form id="form2" class="identificationForms">
+      <h1>Register</h1>
+      <label for="username">Username</label>
+      <input type="text" name="username">
+      <label for="password">Password</label>
+      <input type="password" name="password">
+      <label for="password">Confirm password</label>
+      <input type="password" name="password">
+      <p id="goToLogin">Already have account?</p>
+      <button type="button" name="button" onclick="register()">Register</button>
+      <span id="registerFormMsg"></span>
+    </form>
+    <script type="text/javascript" src="main.js">
+
+    </script>
+  </body>
+</html>

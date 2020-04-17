@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+:root {
+  --succes-color: blue;
+  --fail-color: rgb(255, 0, 0);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#identification {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#identification button {
+  border: 0;
+  background: none;
+  color: skyblue;
+  padding: 1em 0.5em;
+}
+#identification button:hover, #identification button:focus {
+  cursor: pointer;
+}
+
+.identificationForms {
+  visibility: hidden;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1em;
+  background-color: #333333;
+  border: 3px solid #111111;
+}
+.identificationForms * {
+  color: white;
+  font-family: Poppins;
+}
+.identificationForms h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+.identificationForms label {
+  margin: 0;
+  font-size: 1rem;
+}
+.identificationForms input {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  color: black;
+  width: 200px;
+}
+.identificationForms p {
+  color: #c8c8c8;
+  margin: 0.2rem;
+  font-size: 0.7rem;
+}
+.identificationForms p:hover {
+  cursor: pointer;
+}
+.identificationForms button {
+  margin: 0;
+  font-size: 1rem;
+  color: black;
+}
+.identificationForms span {
+  background-color: #333333;
+  margin: 0.2em auto;
+  padding: 0.5em;
+  width: calc(200px - .5em);
+}
+
+/*# sourceMappingURL=style.css.map */
